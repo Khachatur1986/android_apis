@@ -1,0 +1,9 @@
+CREATE TABLE `php_api`.`users`(
+  `id` INT(11) NOT NULL AUTO_INCREMENT,
+  `username` VARCHAR(50) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `age` INT(2),
+  `password` VARCHAR(255) NOT NULL,
+  `created` TIMESTAMP(0) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MYISAM CHARSET=utf8 COLLATE=utf8_general_ci;
